@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #ffffff;
-    --cor-terciaria: #22D4FD;
-    --cor-hover: #272727;
+    --cor-primaria: #606C5D;
+    --cor-secundaria: #FFF4F4;
+    --cor-terciaria: #F1C376;
+    --cor-hover: #F7E6C4;
 
     --fonte-primaria: 'Lato', sans-serif;
     --fonte-secundaria: 'Josefin Sans', sans-serif;
