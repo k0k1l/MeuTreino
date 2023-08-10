@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Lato', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+}
+
+body {
+    height: 100%vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 2% 0%; 
+}
+
+.cabecalho__menu {
+    display:flex;
+    gap: 50px;
+    justify-content: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.cabecalho__menu__link:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+}
+
+.apresentacao {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--cor-secundaria)
+}
+
+.apresentacao__imagem {
+    width: 70%;
+    margin: auto;
+}
+
+.apresentacao__titulo {
+    padding: 4% 0% 1% 0%;
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+}
+
+.apresentacao__paragrafo {
+    padding: 1% 0%;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+.apresentacao__paragrafo__destaque {
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    
+}
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    text-align: center;
+    padding: 1%;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+}
+
+.tipos__treino {
+    display: flex;
+    gap: 50px;
+}
+
+.apresentacao__plano {
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    .tipos__treino{
+        flex-direction: column;
+        padding: 2%;
+    }
+}
